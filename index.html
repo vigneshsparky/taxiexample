@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Track Call Taxi - Thanjavur</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link rel="shortcut icon" href="asset/taxilogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <div id="loading-overlay">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="custom-cursor"></div>
+
+
+    <!-- Top Contact Strip -->
+    <div class="top-strip animated fade-in-top">
+        <span><i class="fas fa-phone"></i> 04362-266999</span>
+        <span><i class="fas fa-envelope"></i> info@besttrackcalltaxi.com</span>
+    </div>
+
+    <!-- Header & Nav -->
+    <header class="animated slide-down">
+        <div class="logo">
+            <img src="asset/taxilogo.png" alt="Best Track Call Taxi" />
+        </div>
+        <div class="hamburger" id="menu-btn"> <img src="asset/hamburger.png" alt="menu-icon" width="25px" height="25px">
+        </div>
+        <nav>
+            <ul id="links" class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#tariffs">Tariffs</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a class="book-btn" href="#book">Book a Car</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- <div style="background-color: black; padding: 2px;">
+        <img src="https://static.vecteezy.com/system/resources/previews/023/524/637/non_2x/red-sport-car-design-transparent-background-free-png.png"
+            alt="moving car" height="20" style="margin-top: 10px;" class="carmoving">
+    </div> -->
+
+
+
+    <!-- Hero Carousel -->
+    <!-- <section id="home" class="carousel animated zoom-in">
+        <button class="carousel-btn left">
+            <i class="fas fa-car-side"></i>
+        </button>
+        <div class="carousel-track">
+            <div class="slide active">Reliable Rides in Thanjavur</div>
+            <div class="slide">Safe Airport Drops</div>
+            <div class="slide">Book Your Trip Instantly</div>
+        </div>
+        <button class="carousel-btn right">
+            <i class="fas fa-car-side"></i>
+        </button>
+    </section> -->
+
+    <!-- Hero Carousel -->
+    <section id="home" class="carousel animated zoom-in">
+        <button class="carousel-btn left">
+            <img src="asset/taxi-slider.png" alt="slide-btn" class="taxi-btn right-anim">
+        </button>
+
+        <div class="carousel-track">
+            <!-- Slide 1: Welcome Slide -->
+            <div class="slide active">
+                <div class="slide-content">
+                    <h1 class="top-anim">Welcome to Best Track Call Taxi</h1>
+                    <p class="bottom-anim">"Fast. Reliable. Trusted by Thanjavur"</p>
+                    <img src="asset/taxi-image.png" class="slide-img left-anim" alt="car-icon">
+
+                </div>
+            </div>
+
+            <!-- Slide 2: Services & Timing -->
+            <div class="slide">
+                <div class="slide-content two-col">
+                    <div class="slide-text left-anim">
+                        <h2>All Weather. All Functions.</h2>
+                        <p>Weddings, Events, Daily Drops — Always On Time.</p>
+                    </div>
+                    <div class="slide-icons right-anim">
+                        <img src="https://cdn-icons-png.flaticon.com/512/535/535239.png" alt="clock-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1077/1077042.png" alt="safe-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/590/590767.png" alt="fast-icon">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Safety for Women -->
+            <div class="slide">
+                <div class="slide-content">
+                    <h2 class="top-anim">Your Safety is Our Priority</h2>
+                    <p class="left-anim">We care for women, pregnant ladies & elders — like a mother would.</p>
+                    <img src="https://cdn-icons-png.flaticon.com/512/4825/4825096.png" class="bottom-anim"
+                        alt="care-icon" height="120">
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-btn right">
+            <img src="asset/right-taxi-slider.png" alt="slide-btn" class="taxi-btn right-anim ">
+        </button>
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="animated fade-in ">
+        <div class="animate-on-view left_right">
+            <div>
+                <h2>About Us</h2>
+                <p>Welcome to BestTrack Call Taxi, Thanjavur's most trusted and customer-loved taxi service since 2002.
+                    With
+                    over 10,000+
+                    happy customers and counting, we have proudly served our community with dedication, punctuality, and
+                    comfort
+                    for more
+                    than two decades.</p>
+                <p>Our commitment to affordable pricing, timely pickups, and exceptional service has made us the
+                    preferred
+                    choice for
+                    families, professionals, and tourists alike.</p>
+            </div>
+
+            <div class="quick-booking-container">
+                <h2 class="quick-booking-title">QUICK BOOKING</h2>
+                <table class="button-table">
+                    <tr>
+                        <!-- WhatsApp Button -->
+                        <td class="button-cell">
+                            <a href="https://wa.me/919092133144?text=I%20need%20a%20taxi%20from%20Best%20Track%20Thanjavur"
+                                class="whatsapp-button" target="_blank">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                        </td>
+                        <!-- Call Button -->
+                        <td class="button-cell">
+                            <a href="tel:04362272737" class="call-button">
+                                <i class="fas fa-phone-alt"></i> Call
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+        <div class="animate-on-view right_left">
+            <div class="booking-form-container">
+                <h2 id="booking-title">Best Track Thanjavur - Call Taxi Booking</h2>
+                <form id="taxiBookingForm" method="POST">
+                    <!-- Trip Type -->
+                    <div class="radio-group">
+                        <label><input type="radio" name="trip_type" value="oneway" checked> One Way</label>
+                        <label><input type="radio" name="trip_type" value="roundtrip"> Round Trip</label>
+                    </div>
+
+                    <!-- Name -->
+                    <div class="input-group">
+                        <input type="text" name="customer_name" placeholder="Your Name" required>
+                        <span class="icon">👤</span>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="input-group">
+                        <input type="tel" name="phone_number" placeholder="Mobile Number" required pattern="[6-9]\d{9}">
+                        <span class="icon">📞</span>
+                    </div>
+
+                    <!-- Pickup -->
+                    <div class="input-group">
+                        <input type="text" name="pickup_location" placeholder="Pickup Location" required>
+                        <span class="icon">📍</span>
+                    </div>
+
+                    <!-- Drop -->
+                    <div class="input-group">
+                        <input type="text" name="drop_location" placeholder="Drop Location" required>
+                        <span class="icon">📍</span>
+                    </div>
+
+                    <!-- Date -->
+                    <div class="input-group">
+                        <input type="date" name="pickup_date" required>
+                        <span class="icon">📅</span>
+                    </div>
+
+                    <!-- Time -->
+                    <div class="input-group">
+                        <input type="time" name="pickup_time" required>
+                        <span class="icon">⏰</span>
+                    </div>
+
+                    <!-- AC/Non-AC -->
+                    <div class="radio-group">
+                        <label><input type="radio" name="car_type" value="ac" checked> AC</label>
+                        <label><input type="radio" name="car_type" value="non_ac"> Non-AC</label>
+                    </div>
+
+                    <!-- Submit -->
+                    <button type="submit" class="submit-btn">Get Estimate</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="cards animated slide-up animate-on-view">
+        <h2 class="left_right">Our Services</h2>
+        <div class="card-grid right_left">
+            <div class="card animated zoom-in">One-Way Trips</div>
+            <div class="card animated zoom-in">Round Trips</div>
+            <div class="card animated zoom-in">Airport Pickup</div>
+            <div class="card animated zoom-in">Local Rides</div>
+        </div>
+    </section>
+
+    <!-- Tariffs -->
+    <section id="tariffs" class="animated fade-in animate-on-view">
+        <h2 class="left_right">Tariff Details</h2>
+        <table class="animated slide-up">
+            <tbody class="right_left">
+                <tr>
+                    <th class="th">Service</th>
+                    <th class="th">Rate</th>
+                </tr>
+                <tr>
+                    <td class="td">Local Ride</td>
+                    <td class="td">₹12/km</td>
+                </tr>
+                <tr>
+                    <td class="td">Airport Drop</td>
+                    <td class="td">₹1500</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+
+    <!-- tarrif details start  -->
+
+    <section class="tariff-section">
+        <h2 class="section-title left_right">Our Car Tariffs</h2>
+        <div class="tariff-row right_left">
+
+            <!-- Card 1 -->
+            <div class="tariff-card animate-on-view">
+                <h3 class="car-name">Sedan</h3>
+                <img src="asset/car-temp-car-1.png" alt="Sedan" class="car-image">
+                <ul class="tariff-details">
+                    <li>4 Seater + 1 Driver</li>
+                    <li>4 Hrs / 50 Km — Rs.1200</li>
+                    <li>Extra Per Hour — Rs.100</li>
+                    <li>Per Km — Rs.14</li>
+                    <li>Driver Bata — Rs.500</li>
+                    <li>Toll / Parking / Others — Party</li>
+                </ul>
+                <button class="book-btn">Book Now</button>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="tariff-card animate-on-view">
+                <h3 class="car-name">SUV</h3>
+                <img src="asset/car-temp-1.png" alt="SUV" class="car-image">
+                <ul class="tariff-details">
+                    <li>6 Seater + 1 Driver</li>
+                    <li>4 Hrs / 50 Km — Rs.1800</li>
+                    <li>Extra Per Hour — Rs.150</li>
+                    <li>Per Km — Rs.18</li>
+                    <li>Driver Bata — Rs.500</li>
+                    <li>Toll / Parking / Others — Party</li>
+                </ul>
+                <button class="book-btn">Book Now</button>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="tariff-card animate-on-view">
+                <h3 class="car-name">Innova</h3>
+                <img src="asset/car-temp-car-3.png" alt="Innova" class="car-image">
+                <ul class="tariff-details">
+                    <li>7 Seater + 1 Driver</li>
+                    <li>4 Hrs / 50 Km — Rs.2200</li>
+                    <li>Extra Per Hour — Rs.200</li>
+                    <li>Per Km — Rs.20</li>
+                    <li>Driver Bata — Rs.600</li>
+                    <li>Toll / Parking / Others — Party</li>
+                </ul>
+                <button class="book-btn">Book Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- tarrif details end  -->
+
+
+
+    <!-- Why Choose Us -->
+    <!-- <section class="animated zoom-in">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>✔ Trusted Drivers</li>
+            <li>✔ Affordable Pricing</li>
+            <li>✔ Quick Response</li>
+            <li>✔ Local Expertise</li>
+        </ul>
+    </section> -->
+
+    <section id="why-choose-us">
+        <div class="why-choose-us">
+            <div class="left-content">
+                <h2 class="left_right">Why Choose Us</h2>
+                <ul>
+                    <li class="left_right">24/7 Customer Support</li>
+                    <li class="left_right">Safe and Secure Rides</li>
+                    <li class="left_right">Affordable Pricing</li>
+                </ul>
+            </div>
+            <div class="right-img right_left">
+                <img src="https://media.istockphoto.com/id/1184421719/photo/ensuring-she-has-a-clear-view.jpg?s=612x612&w=0&k=20&c=IrXnyB71uwwrWn9PkLjSo8FWnDxpL5OG05Vm1mYQY04="
+                    alt="Safety for Women">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- last ride  -->
+    <!-- <section id="ride-history">
+        <h2>Your Last Ride</h2>
+        <div class="ride-card animated fade-in">
+            <p><strong>From:</strong> Marina Beach</p>
+            <p><strong>To:</strong> Chennai Central</p>
+            <p><strong>Date:</strong> May 18, 2025</p>
+            <p><strong>Fare:</strong> ₹250</p>
+        </div>
+    </section> -->
+
+
+    <!-- Testimonials -->
+    <section class="animated fade-in">
+        <h2 class="left_right">Customer Reviews</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial animated slide-up">
+                <div class="stars">★★★★★</div>
+                <p>"Very professional service! Quick and safe ride to the airport."</p>
+                <h4>- John D.</h4>
+            </div>
+            <div class="testimonial animated slide-up">
+                <div class="stars">★★★★☆</div>
+                <p>"Clean car and polite driver. Highly recommended."</p>
+                <h4>- Priya K.</h4>
+            </div>
+            <div class="testimonial animated slide-up">
+                <div class="stars">★★★★★</div>
+                <p>"Affordable pricing and on time. I will book again!"</p>
+                <h4>- Ravi M.</h4>
+            </div>
+            <div class="testimonial animated slide-up">
+                <div class="stars">★★★★★</div>
+                <p>"Best taxi service in the area!"</p>
+                <h4>- Aisha L.</h4>
+            </div>
+            <div class="testimonial animated slide-up">
+                <div class="stars">★★★☆☆</div>
+                <p>"Decent service, but could improve punctuality."</p>
+                <h4>- George P.</h4>
+            </div>
+            <div class="testimonial animated slide-up">
+                <div class="stars">★★★★★</div>
+                <p>"Driver was friendly and ride was smooth!"</p>
+                <h4>- Meena S.</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="animated fade-in">
+        <div class="map left_right">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9267.886000339196!2d79.13457766061222!3d10.789810449164817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1747680891391!5m2!1sen!2sin"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="cont right_left">
+            <h2 class="left_right">Contact Us</h2>
+            <form class="animated slide-up">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Font Awesome CDN -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /> -->
+
+    <!-- Footer Start -->
+    <footer class="site-footer animated fade-in">
+
+        <div class="footer-content">
+
+            <!-- Column 1: Logo and About -->
+            <div class="footer-box">
+                <img src="asset/taxilogo.png" alt="Company Logo" class="footer-logo">
+                <p class="footer-about">
+                    Best Track Call Taxi is your trusted partner for safe, timely, and affordable rides across Thanjavur
+                    and
+                    nearby areas.
+                </p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+
+            <!-- Column 2: Useful Links -->
+            <div class="footer-box">
+                <h4>Useful Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Contact Info -->
+            <div class="footer-box">
+                <h4>Contact Info</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-map-marker-alt"></i> No.14, S Nagar, Palayam Road, Thanjavur - 613009</li>
+                    <li><i class="fas fa-phone-alt"></i> +91-9444416034 / +91-9884287577</li>
+                    <li><i class="fas fa-envelope"></i> travelstnj@gmail.com</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Best Track Call Taxi | Thanjavur</p>
+        </div>
+
+    </footer>
+    <!-- Footer End -->
+
+
+
+    <!-- floating whatsapp  -->
+    <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+    <!-- Sticky Book Button -->
+    <a href="#book" class="sticky-book">Book a Car</a>
+
+    <!-- Floating Car Scroll Button -->
+    <button class="scroll-car" onclick="scrollToTop()">
+        <i class="fas fa-car"></i>
+    </button>
+    <script src="script.js"></script>
+</body>
+
+</html>
